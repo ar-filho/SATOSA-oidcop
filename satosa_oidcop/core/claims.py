@@ -36,6 +36,7 @@ combine_values_by_claim = defaultdict(
         "phone_number_verified": combine_select_first_value,
         "address": combine_select_first_value,
         "updated_at": combine_select_first_value,
+        "cpf": combine_select_first_value,
     },
 )
 
